@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Header -->
+    <header>
+        <a href="index.html" id="logo">MUHAMMED SINAN KP</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Contact Links Info Section -->
+        <section>
+            <h1>Get In Touch</h1>
+            <p>If you have any questions or want to collaborate on web projects, feel free to use the form below or contact me directly via the following action links:</p>
+            
+            <p>
+                <strong>Direct Call:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a><br>
+                <strong>Direct Email:</strong> <a href="mailto:muhammedsinankp@example.com">muhammedsinankp@example.com</a>
+            </p>
+        </section>
+
+        <!-- Comprehensive Contact Form Section -->
+        <section>
+            <h2>Inquiry Form</h2>
+            <p>Please fill out this form to submit your design requirements.</p>
+
+            <form action="#" method="POST">
+                <!-- Text box -->
+                <section>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </section>
+
+                <!-- Password -->
+                <section>
+                    <label for="token">Secure Message Token:</label>
+                    <input type="password" id="token" name="token" placeholder="Create a secure passcode" required>
+                </section>
+
+                <!-- Email -->
+                <section>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </section>
+
+                <!-- Number -->
+                <section>
+                    <label for="priority">Inquiry Priority Rating (1 to 5):</label>
+                    <input type="number" id="priority" name="priority" min="1" max="5" placeholder="3" required>
+                </section>
+
+                <!-- Date -->
+                <section>
+                    <label for="date">Preferred Callback Date:</label>
+                    <input type="date" id="date" name="date">
+                </section>
+
+                <!-- Drop-down list -->
+                <section>
+                    <label for="category">Inquiry Topic:</label>
+                    <select id="category" name="category">
+                        <option value="general">General Inquiry</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="consulting">Design Consulting</option>
+                    </select>
+                </section>
+
+                <!-- Radio buttons -->
+                <section>
+                    <label>Preferred Communication Method:</label>
+                    <p class="radio-checkbox-group">
+                        <label><input type="radio" name="contact-preference" value="email" checked> Email Address</label>
+                        <label><input type="radio" name="contact-preference" value="phone"> Phone Call</label>
+                    </p>
+                </section>
+
+                <!-- Checkboxes -->
+                <section>
+                    <label>Subscribe to Correspondence:</label>
+                    <p class="radio-checkbox-group">
+                        <label><input type="checkbox" name="subscription" value="newsletter" checked> Weekly Newsletter</label>
+                        <label><input type="checkbox" name="subscription" value="updates"> Product Updates</label>
+                    </p>
+                </section>
+
+                <!-- File upload -->
+                <section>
+                    <label for="attachment">Upload Project Requirements Brief (optional):</label>
+                    <input type="file" id="attachment" name="attachment">
+                </section>
+
+                <!-- Textarea -->
+                <section>
+                    <label for="message">Message Details:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Describe your web design requirements in detail..." required></textarea>
+                </section>
+
+                <!-- Actions: Submit & Reset -->
+                <p class="form-actions">
+                    <input type="submit" value="Submit Message">
+                    <input type="reset" value="Reset Fields">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Fixed Floating Back-to-Top Button -->
+    <a href="#" class="fixed-back-to-top">&uarr;</a>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 MUHAMMED SINAN KP. All rights reserved.</p>
+        <p>
+            <a href="https://github.com" target="_blank">GitHub</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
